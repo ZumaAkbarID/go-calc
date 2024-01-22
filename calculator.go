@@ -19,3 +19,7 @@ func pembagian(bil1, bil2 float32) float32 {
 func modulo(bil1, bil2 int32) int32 {
 	return bil1 % bil2
 }
+
+func test(name string) (string, error) {
+	return "Halo " + name, nil
+}
